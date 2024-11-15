@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid;
+    background-color: #4D4D4D;
+    height: 60px;
+    margin-bottom: 40px;
+  }
+  
+   ul:nth-child(1){
+    text-decoration: none;
+    margin-right: 24px;
+    border: 1 px;
+    border-color: black;
+  }
+  ul li {
+    color: azure;
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin-right: 32px;
+    border: 1 px;
+    border-color: white;
+  }
+  ul li a:hover{
+    border: 1px solid ;
+    color: black;
+  }
+  a{
+    margin-top: 12px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
